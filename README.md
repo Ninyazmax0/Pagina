@@ -2,6 +2,10 @@
 
 Sistema de gestión de inventario para la Farmacia Santa Cruz, desarrollado como parte del proyecto académico de la institución **The Repair of System**.
 
+## Ver en GitHub Pages
+
+El proyecto ya está disponible en: **https://[tu-usuario].github.io/[nombre-repo]**
+
 ## Integrantes
 
 | Carnet | Nombre | Rol |
@@ -28,7 +32,7 @@ Sistema de gestión de inventario para la Farmacia Santa Cruz, desarrollado como
 - Tailwind CSS
 - Framer Motion
 
-## Instalación
+## Instalación (desarrollo local)
 
 ```bash
 npm install
@@ -39,3 +43,16 @@ npm run dev
 
 - **Usuario:** admin
 - **Contraseña:** admin123
+
+---
+
+## Cómo subir a GitHub Pages
+
+1. Crea un nuevo repositorio en GitHub
+2. Sube todo el contenido de esta carpeta al repositorio
+3. Ve a **Settings > Pages**
+4. En "Source", selecciona **Deploy from a branch**
+5. Selecciona la rama **main** y la carpeta **/ (root)**
+6. Guarda los cambios
+7. Espera unos minutos y tu proyecto estará disponible en:
+   `https://[tu-usuario].github.io/[nombre-del-repo]/`
